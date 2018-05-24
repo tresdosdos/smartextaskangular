@@ -1,0 +1,7 @@
+<div class="user__card__row" *ngFor="let usersArr of users">
+  <section class='user__card__container' *ngFor="let user of usersArr">
+    <div class='user__card__avatar'></div>
+    <app-userdata [user]="user"></app-userdata>
+    <app-functional-panel [id] = 'user.id'></app-functional-panel>
+  </section>
+</div>

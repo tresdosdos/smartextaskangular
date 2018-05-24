@@ -1,0 +1,10 @@
+<div class='user__company__container'>
+  <button (click)="this.toggleMenu()" class='user__company__menu__button'>
+    {{user.company.name}}{{symbol}}
+  </button>
+  <div class='user__company__info__container' *ngIf="menuIsOpen">
+    <p>Catch phrase of the company: {{user.company.catchPhrase}}</p>
+    <p>BS: {{user.company.bs}}</p>
+    <p class='sorry'>sorry, i'm tried to use map and lat&lng, but i'm done</p>
+  </div>
+</div>

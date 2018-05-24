@@ -1,0 +1,14 @@
+/*main code*/
+
+main{
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  width: 95%;
+}
+
+app-users{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
